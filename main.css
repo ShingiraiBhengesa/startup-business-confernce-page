@@ -29,7 +29,7 @@ h1 {
   color: var(--accent-color);
   line-height: 1em;
   letter-spacing: 2px;
-  background: url(./assets/heading.jpg);
+  background: url(./assets/Red-3.png);
   background-color: lightpink;
   background-blend-mode: multiply;
   -webkit-background-clip: text;
@@ -89,7 +89,7 @@ a {
 /* headline styles */
 
 .header-container {
-  background: #f8f9f9 url(#);
+  background: #f8f9f9 url(./assets/main_big.png);
 }
 
 .headline-paragraph-description {
