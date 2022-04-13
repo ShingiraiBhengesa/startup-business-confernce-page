@@ -116,6 +116,7 @@ const cardSpeaker = (index) => `
 
 const deployTwoSpeakers = () => {
   speakerContainerCard.innerHTML = ' ';
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < 2; i++) {
     const speaker = document.createElement('div');
     speaker.classList.add('speaker-card');
@@ -126,6 +127,7 @@ const deployTwoSpeakers = () => {
 
 const deployAllSpeakers = () => {
   speakerContainerCard.innerHTML = ' ';
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < dataSpeakers.length; i++) {
     const speaker = document.createElement('div');
     speaker.classList.add('speaker-card');
