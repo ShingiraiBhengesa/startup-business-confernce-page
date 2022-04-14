@@ -43,7 +43,7 @@ linkSponsor.addEventListener('click', () => {
 const dataSpeakers = [
   {
     id: 0,
-    url: './assets/speakers/speaker1.jpg',
+    url: './assets/speakers/speaker1.png',
     name: 'Yochai Benkler',
     position:
       'Beykman Professor of Enterpreanurial Legal Studies of Harvard Law School',
@@ -52,7 +52,7 @@ const dataSpeakers = [
   },
   {
     id: 1,
-    url: './assets/speakers/speaker2.jpg',
+    url: './assets/speakers/speaker2.png',
     name: 'SohYeong Noh',
     position: 'Director of Art Centre Nabl and a board member of CC Korea',
     description:
@@ -60,7 +60,7 @@ const dataSpeakers = [
   },
   {
     id: 2,
-    url: './assets/speakers/speaker3.jpg',
+    url: './assets/speakers/speaker3.png',
     name: 'Lila Tretikov',
     position: 'Executive Director of the Wikimedia Foundation',
     description:
@@ -68,7 +68,7 @@ const dataSpeakers = [
   },
   {
     id: 3,
-    url: 'assets/speakers/speaker4.jpg',
+    url: 'assets/speakers/speaker4.png',
     name: 'Kilnam Chon',
     position:
       'Beykman Professor of Enterpreanurial Legal Studies of Harvard Law School',
@@ -77,7 +77,7 @@ const dataSpeakers = [
   },
   {
     id: 4,
-    url: './assets/speakers/speaker5.jpg',
+    url: './assets/speakers/speaker5.png',
     name: 'Julia Leda',
     position: 'President of Young Pirates of Europe',
     description:
@@ -85,7 +85,7 @@ const dataSpeakers = [
   },
   {
     id: 5,
-    url: './assets/speakers/speaker6.jpg',
+    url: './assets/speakers/speaker6.png',
     name: 'Ryan Merkley',
     position: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
     description:

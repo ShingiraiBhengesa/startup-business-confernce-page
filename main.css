@@ -224,9 +224,14 @@ a {
     color: gray;
   }
 
-  .header-nav-desktop > li > a:hover {
+  .header-nav-desktop .campain {
     color: var(--accent-color);
     border: 4px solid var(--accent-color);
+    cursor: pointer;
+  }
+
+  .header-nav-desktop > li > a:hover {
+    color: var(--accent-color);
     cursor: pointer;
   }
 
@@ -328,6 +333,11 @@ main {
   opacity: 0.8;
   padding: 1em 0.5em;
   margin-bottom: 1em;
+}
+
+.main-card:hover {
+  cursor: pointer;
+  border: 2px solid #d3d3d3;
 }
 
 .main-card-img {

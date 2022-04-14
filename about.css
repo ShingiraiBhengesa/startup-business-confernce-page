@@ -17,7 +17,7 @@ body {
 body {
   font-family: 'Lato', sans-serif;
   color: var(--primary-color);
-  background: #f8f9f9;
+  background: #ffffff;
 }
 
 /* Typography */
@@ -85,7 +85,7 @@ a {
 /* headline styles */
 
 header {
-  background: #f8f9f9 url(./assets/scattered-forcefields.svg);
+  background: #f8f9f9 url(./assets/main_big.png);
   text-align: center;
 }
 
@@ -228,9 +228,14 @@ header {
     color: gray;
   }
 
-  .header-nav-desktop > li > a:hover {
+  .header-nav-desktop .campain {
     color: var(--accent-color);
     border: 4px solid var(--accent-color);
+    cursor: pointer;
+  }
+
+  .header-nav-desktop > li > a:hover {
+    color: var(--accent-color);
     cursor: pointer;
   }
 
@@ -416,7 +421,7 @@ main {
 }
 
 .past-event-card-1 {
-  background-image: url(./assets/annie-spratt-hCb3lIB8L8E-unsplash.jpg);
+  background-image: url(./assets/images.jpg);
   background-color: var(--accent-color);
   background-blend-mode: multiply;
   background-size: cover;
@@ -430,7 +435,7 @@ main {
 }
 
 .past-event-card-2 {
-  background-image: url(./assets/campaign-creators-e6n7uoEnYbA-unsplash.jpg);
+  background-image: url(./assets/download.jpg);
   background-color: var(--accent-color);
   background-blend-mode: multiply;
   background-size: cover;
